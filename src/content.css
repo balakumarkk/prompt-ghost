@@ -1,0 +1,42 @@
+/* Textarea overlay styling */
+.prompt-ghost-textarea-mirror {
+  position: absolute;
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+  pointer-events: none !important;
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+  color: transparent !important;
+  z-index: 2147483647 !important; /* On top of everything */
+}
+
+/* Hidden visual mirror portion to align autocomplete */
+.prompt-ghost-hidden-text {
+  color: transparent !important;
+  background: transparent !important;
+}
+
+/* Autocomplete suggestion layout */
+.prompt-ghost-suggestion {
+  color: #8e8e8e !important;
+  opacity: 0.85 !important;
+  background: transparent !important;
+  pointer-events: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+}
+
+/* Inline suggestion style for contenteditable elements */
+.prompt-ghost-suggestion-inline {
+  color: #8e8e8e !important;
+  opacity: 0.85 !important;
+  background: transparent !important;
+  pointer-events: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  display: inline !important;
+}
